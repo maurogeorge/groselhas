@@ -1,11 +1,19 @@
 ---
 layout: default
-title: Olá mundo
+title: Página inicial
 ---
-
-<h1>Posts</h1>
-<ul class="posts">
-  {% for post in site.posts %}
-    <li><span>{{ post.date | date_to_string }}</span> - <a href="{{ post.url }}">{{ post.title }}</a></li>
+{% assign first_post = site.posts.first %}
+<div class="well">
+  <h1><a href="{{ first_post.url }}">{{ first_post.title }}</a> <small>{{ first_post.date | date: '%d/%m/%Y' }}</small></h1>
+  <p>{{ first_post.content | truncatewords: 20 }}</p>
+  <p><a href="{{ first_post.url }}" class="btn primary">Continue lendo</a></p>
+</div>
+<div class="row">
+  {% for post in site.posts limit: 2 offset:1 %}
+    <div class="span5">
+      <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+      <p>{{ post.content | truncate: 120  }}</p>
+      <p><a href="{{ post.url }}" class="btn">Continue lendo</a></p>
+    </div>
   {% endfor %}
-</ul>
+</div>
