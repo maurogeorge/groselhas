@@ -3,6 +3,6 @@ layout: default
 title: Sobre
 ---
 
-#Sobre
+#{{ page.title }}
 
 Em breve um conteúdo melhor.
