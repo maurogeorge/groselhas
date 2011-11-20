@@ -7,7 +7,7 @@
     <meta name="description" content="Mauro George blog sobre desenvolvimento web, PHP, CakePHP, Ruby, Rails, Git e o que mais for aprendendo ligado ao mundo de desenvolvimento de software" />
     <meta name="keywords" content="mauro, george, desenvolvimento, web, php, cakephp, ruby, rails, git" />
     <link rel="stylesheet" href="http://twitter.github.com/bootstrap/1.4.0/bootstrap.min.css">
-    <link rel="stylesheet" media="screen,projection" type="text/css" href="css/styles.css">
+    <link rel="stylesheet" media="screen,projection" type="text/css" href="/css/styles.css">
     <!--[if IE]>
     <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
@@ -16,14 +16,28 @@
     <header class="topbar">
       <div class="fill">
         <div class="container">
-          <a href="/" class="brand">Mauro George</a>
+          <a href="/" class="brand">Groselhas</a>
           <ul class="nav">
             <li><a href="/">Início</a></li>
             <li><a href="sobre.html">Sobre</a></li>
           </ul>
         </div>
       </div>
-    </header>    
-    {{ content }}
+    </header>
+    <section class="container">
+      <div class="content">
+        <div class="row">
+          <div class="span10">
+            {{ content }}
+          </div>
+          <div class="span4">
+            <h2>Categorias</h2>
+          </div>
+        </div>  
+      </div>
+    <footer>
+      <address><a href="http://creativecommons.org/licenses/by-nc/3.0/br/" rel="license"><img src="http://i.creativecommons.org/l/by-nc/3.0/88x31.png" style="border-width:0" alt="Creative Commons License"></a><br> Groselhas está sob uma <a href="http://creativecommons.org/licenses/by-nc/3.0/br/" rel="license">Licença Creative Commons Atribuição-Uso Não-Comercial 3.0 Brazil</a>.</address>
+    </footer>
+    </section>
   </body>
 </html>
