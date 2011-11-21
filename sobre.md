@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: static
 title: Sobre
 ---
 
