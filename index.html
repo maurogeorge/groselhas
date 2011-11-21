@@ -2,6 +2,7 @@
 layout: default
 title: Página inicial
 ---
+
 {% assign first_post = site.posts.first %}
 <div class="well">
   <h1><a href="{{ first_post.url }}">{{ first_post.title }}</a> <small>{{ first_post.date | date: '%d/%m/%Y' }}</small></h1>
