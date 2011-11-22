@@ -1,0 +1,14 @@
+---
+layout: default
+title: Arquivo
+---
+
+<h1>{{ page.title }}</h1>
+{% for post in site.posts %}
+  <article>
+    <h2><a href="{{ post.url }}">{{ post.title }}</a> <span class="label notice">{{ post.date | date: '%d/%m/%Y' }}</span></h2>
+    {{ post.content | truncate: 300  }}
+    <p class="row"><a href="{{ post.url }}" class="btn primary pull-right">Continue lendo</a></p>
+  </article>
+  <hr />
+{% endfor %}
