@@ -12,7 +12,7 @@ title: Página inicial
 <div class="row">
   {% for post in site.posts limit: 2 offset:1 %}
     <article class="span5">
-      <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+      <h2><a href="{{ post.url }}">{{ post.title }}</a> <span class="label notice">{{ post.date | date: '%d/%m/%Y' }}</span></h2>
       <p>{{ post.content | truncate: 120  }}</p>
       <p><a href="{{ post.url }}" class="btn">Continue lendo</a></p>
     </article>
