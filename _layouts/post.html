@@ -1,6 +1,19 @@
 ---
 layout: default
 ---
-
-<h1>{{ page.title }}</h1>
-{{ content }}
+<article id="post">
+  <h1>
+    <a href="{{ page.url }}" title="{{ page.title }}">{{ page.title }}</a>
+    <span class="label success">{{ page.category }}</span>
+  </h1>
+  <p><small>Criado em: {{ page.date | date: '%d/%m/%Y' }}</small></p>
+  {{ content }}
+  <hr />
+  <div>
+    <p>Tags:
+      {% for tag in page.tags %}
+        <span class="label">{{ tag }}</span>  
+      {% endfor %}
+    </p>
+  </div>
+</article>  
