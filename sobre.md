@@ -7,4 +7,4 @@ Em breve um conteúdo melhor.
 
 ## Layout
 
-Criado utilizando o [http://twitter.github.com/bootstrap/](http://twitter.github.com/bootstrap/) e ícones utilizados criados por [http://www.yootheme.com/icons](http://www.yootheme.com/icons).
+Criado utilizando o [twitter bootstrap](http://twitter.github.com/bootstrap/) e ícones utilizados criados por [yootheme](http://www.yootheme.com/icons), exceto o ícone do github que não sei a fonte.
