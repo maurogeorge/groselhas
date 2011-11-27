@@ -11,7 +11,7 @@ layout: nil
  <id>http://maurogeorge.github.com/</id>
  <author>
    <name>Mauro George</name>
-   <email>contato@aprenderphp.com.br</email>
+   <email>maurogot@gmail.com</email>
  </author>
 
  {% for post in site.posts %}
