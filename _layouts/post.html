@@ -2,12 +2,16 @@
 layout: default
 ---
 <article id="post">
-  <h1>
-    <a href="{{ page.url }}" title="Post {{ page.title }}">{{ page.title }}</a>
-    <span class="label success">{{ page.category }}</span>
-  </h1>
-  <p><small>Criado em: {{ page.date | date: '%d/%m/%Y' }}</small></p>
-  {{ content }}
+  <header>
+    <h1>
+      <a href="{{ page.url }}" title="Post {{ page.title }}">{{ page.title }}</a>
+      <span class="label success">{{ page.category }}</span>
+    </h1>
+    <p><small>Criado em: {{ page.date | date: '%d/%m/%Y' }}</small></p>
+  </header>
+  <section>
+    {{ content }}
+  </section>
   <hr />
   <div>
     <p>Tags:
