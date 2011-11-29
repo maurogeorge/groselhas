@@ -1,6 +1,8 @@
 ---
 layout: static
 title: Sobre
+meta_description: Sobre o blog Groselhas, de Mauro George.
+meta_keywords: sobre, groselhas, mauro, george, desenvolvimento, web, php, cakephp, ruby, rails, git
 ---
 
 ## Mauro quem?
