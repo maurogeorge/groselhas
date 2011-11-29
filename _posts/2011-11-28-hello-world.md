@@ -21,6 +21,7 @@ Sendo assim das coisas que nunca havia utilizado e resolvi usar no desenvolvimen
 
 E outras que já utilizei anteriormente, mais que acho legal mencionar foram o 
 
+* [RVM](http://beginrescueend.com/ "gerencie multiplas versões de Ruby e sets de Gems")
 * [Git](http://git-scm.com/ "excelente sistema de controle de versão, se não o melhor")
 * [Markdown](http://daringfireball.net/projects/markdown/ "escreva markdown e transforme em HTML")
 * [Disqus](http://disqus.com/ "plataforma de comentários")
