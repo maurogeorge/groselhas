@@ -51,7 +51,7 @@ $ cp /usr/local/Cellar/postgresql/9.1.2/org.postgresql.postgres.plist ~/Library/
 $ launchctl load -w ~/Library/LaunchAgents/org.postgresql.postgres.plist
 {% endhighlight %}
 
-Observe que aqui estamos usando o PostgreSQL 9.0.4 sendo assim a sua instalação mudará o path no comando acima dependendo da versão do PostgreSQL, por isso é importante ler as mensagens que o homebrew lhe informar para inserir o comando acima corretamente.
+Observe que aqui estamos usando o PostgreSQL 9.1.2 sendo assim a sua instalação mudará o path no comando acima dependendo da versão do PostgreSQL, por isso é importante ler as mensagens que o homebrew lhe informar para inserir o comando acima corretamente.
 
 ### Iniciando e parando o PostgreSQL manualmente
 
