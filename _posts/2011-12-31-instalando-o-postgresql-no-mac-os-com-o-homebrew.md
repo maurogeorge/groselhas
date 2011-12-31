@@ -61,7 +61,7 @@ Caso queira iniciar o PostgreSQL manualmente utilize o comando abaixo:
 $ pg_ctl -D /usr/local/var/postgres -l /usr/local/var/postgres/server.log start
 {% endhighlight %}
 
-e para para o PostgreSQL utilize o comando abaixo:
+e para parar a execução do PostgreSQL utilize o comando abaixo:
 
 {% highlight bash %}
 $ pg_ctl -D /usr/local/var/postgres stop -s -m fast
