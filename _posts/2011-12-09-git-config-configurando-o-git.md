@@ -94,6 +94,20 @@ $ git config --global help.autocorrect 1
     
 Assim ele nos dará um aviso e executará o comando que ele acredita que tentamos digitar.
 
+### Evitando tiro de shotgun com o git ao dermos push
+
+Como o [Argentino](http://twitter.com/argentinomota) diz o git da um tiro de shotgun ao executarmos o <code>git push</code>, isso por que os commits de outros branches são enviados, mesmo estando em um branch especifico.
+
+Imagine que tenhamos 3 branches master, feature/awesome-thing e feature/other-thing, ambos feature branches tem commits locais que ainda não foram enviados, estando no branch feature/awesome-thing e executar um <code>git push</code> **os commits dos 2 feature branches** serão enviados, pode não ser o comportamento esperado no momento.
+
+Utilizando o:
+
+{% highlight bash %}
+$ git config --global push.default current
+{% endhighlight %}
+
+dizemos para o git que no <code>git push</code> ele deve enviar o conteúdo do branch atual para um branch de mesmo nome. Sendo assim se executassemos o <code>git push</code> no exemplo anterior, apenas o branch feature/awesome-thing seria enviado, o que faz sentido pois é o branch que estamos no momento. Mais informações e outras configurações possiveis podem ser encontradas no [manual do git](http://schacon.github.com/git/git-config.html).
+
 ### Documentação em HTML
 
 Caso queira que a documentação, ao digitar <code>git help comando</code> seja em HTML pode usar a seguinte configuração:
