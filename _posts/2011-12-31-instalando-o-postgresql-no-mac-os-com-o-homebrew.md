@@ -41,6 +41,16 @@ $ initdb /usr/local/var/postgres
 
 apenas aguarde a execução do comando.
 
+#### Problemas com encoding
+
+Caso apresente algum problema de encoding no template de banco de dados, pode utilizar o comando a seguir para forçar o PostgreSQL a criar o template em UTF-8 por exemplo:
+
+{% highlight bash %}
+$ initdb /usr/local/var/postgres --locale=en_US.UTF-8 --encoding=UNICODE
+{% endhighlight %}
+
+mais informações sobre os comandos passados ao initdb no [manual do PostregesSQL](http://www.postgresql.org/docs/9.1/static/app-initdb.html).
+
 ### Iniciando o PostgreSQL após realizar o login na máquina
 
 Caso você queira, o que acredito que seja o seu caso, iniciar o PostgreSQL após realizar o login em sua máquina execute o seguinte comando abaixo:
