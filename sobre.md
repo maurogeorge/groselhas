@@ -29,4 +29,4 @@ Criado utilizando o [twitter bootstrap](http://twitter.github.com/bootstrap/) e 
 
 ### Conteúdo
 
-Distribuido sobre a [licença Creative Commons Atribuição-Uso Não-Comercial 3.0 Brazi](http://creativecommons.org/licenses/by-nc/3.0/br/ "Licença Creative Commons")
+Distribuido sobre a [licença Creative Commons Atribuição-Uso Não-Comercial 3.0 Brazil](http://creativecommons.org/licenses/by-nc/3.0/br/ "Licença Creative Commons")
