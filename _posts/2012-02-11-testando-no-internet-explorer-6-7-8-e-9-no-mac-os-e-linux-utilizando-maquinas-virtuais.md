@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Testanto no Internet explorer 6, 7, 8 e 9 no Mac Os e Linux utilizando máquinas virtuais
+title: Testando no Internet explorer 6, 7, 8 e 9 no Mac Os e Linux utilizando máquinas virtuais
 meta_description: Saiba como testar no Internet explorer 6, 7, 8 e 9 no Mac Os e Linux utilizando máquinas virtuais.
 meta_keywords: Internet explorer, IE, 6, 7, 8 e 9, Microsft, VirtualBox, front-end
 category: Front-end
