@@ -30,11 +30,11 @@ caso tenha seguido algum tutorial e não saiba o que esta acontecendo aqui, o qu
 
 Se ao passarmos o parâmetro <code>--global</code> definimos a informação para todos os repositórios, ao omitirmos o parâmetro definimos a informação para apenas um de nossos repositórios.
 
-Lembrando de executar o comando estando **dentro do diretório onde encontra se o repositório que quer definir as configurações**. Exemplo: 
+Lembrando de executar o comando estando **dentro do diretório onde encontra se o repositório que quer definir as configurações**. Exemplo:
 
 {% highlight bash %}
 $ git config user.email "email@empresa.com"
-{% endhighlight %}    
+{% endhighlight %}
 
 Assim você pode definir o email para o email de sua empresa por exemplo enquanto nos demais repositórios o email usado seria o seu pessoal.
 
@@ -48,13 +48,24 @@ Agora que entendemos como definimos as configurações no git, iremos ver como p
 $ git config --global alias.co "checkout"
 $ git config --global alias.ci "commit"
 $ git config --global alias.st "status"
-$ git config --global alias.br "branch"      
+$ git config --global alias.br "branch"
 $ git config --global alias.wdiff "diff --word-diff"
-{% endhighlight %}     
+{% endhighlight %}
 
 Agora com os alias definidos podemos fazer <code>git ci</code> ao invés de <code>git commit</code> quando formos realizar um commit. Além dos demais alias que definimos. Lembrando que você pode definir outros alias que julgar interessante.
 
 Detalhe que defino como global pois quero isto válido em todos os meus repositórios.
+
+### Um log bem mais poderoso
+
+Ao executarmos <code>git log</code> obtemos o log de nossos commits. No entanto vem bastante informação e em um formato não muito agradável de se ler. Podemos melhorar o nosso log adicionando o seguinte alias.
+
+{% highlight bash %}
+$ git config --global alias.lg "log --graph --pretty=format:'%Cred%h%Creset %Cblue[%an]%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)%Creset' --abbrev-commit"
+{% endhighlight %}
+
+Agora ao executarmos o comando <code>git lg</code> teremos um log com mais informações úteis do que o log padrão, lembrando que ainda poderá usar o <code>git log</code> normalmente.
+Não se esqueça que podemos ainda usar o <code>git lg -p</code> para vermos o diff do que foi alterado nos commits.
 
 ## Mais configurações
 
@@ -64,11 +75,11 @@ Em alguns momentos um editor de texto é chamado pelo git, como ao darmos um com
 
 {% highlight bash %}
 $ git config --global core.editor "mate -wl1"
-{% endhighlight %} 
+{% endhighlight %}
 
 Usei aqui o comando para chamar o textmate, e como está em seu [blog](http://blog.macromates.com/2005/textmate-shell-utility-tmmate/) devemos passar o parâmetro <code>-w</code> e o parâmetro adicional <code>l1</code> que passei é para o cursor se posicionar na primeira linha do arquivo.
 
-Para o pessoal de linux, que não quiser o Vim, poderíamos definir o gedit por exemplo usando o comando: 
+Para o pessoal de linux, que não quiser o Vim, poderíamos definir o gedit por exemplo usando o comando:
 
 {% highlight bash %}
 $ git config --global core.editor "gedit"
@@ -91,7 +102,7 @@ Em alguns momentos pode acontecer de digitarmos errado como por exemplo digitar 
 {% highlight bash %}
 $ git config --global help.autocorrect 1
 {% endhighlight %}
-    
+
 Assim ele nos dará um aviso e executará o comando que ele acredita que tentamos digitar.
 
 ### Evitando tiro de shotgun com o git ao dermos push
@@ -127,10 +138,10 @@ Agora que você já sabe definir configurações tem que ter um lugar onde seja 
 {% highlight bash %}
 $ git config -l
 {% endhighlight %}
-    
+
 que executado fora de qualquer repositório listará nossas configurações globais. E ao estar dentro de algum repositório, listará as configurações do repositório em especifico.
 
-E se ainda assim dentro do diretório do repositório quiser listar as configurações globais. Podemos usar o comando:    
+E se ainda assim dentro do diretório do repositório quiser listar as configurações globais. Podemos usar o comando:
 
 {% highlight bash %}
 $ git config --global -l
@@ -145,5 +156,5 @@ Caso goste de definir seus alias no shell, pode usar o mesmo para definir comand
 alias go='git checkout '
 alias gc='git commit'
 alias gs='git status '
-alias gb='git branch ' 
-{% endhighlight %}   
+alias gb='git branch '
+{% endhighlight %}
