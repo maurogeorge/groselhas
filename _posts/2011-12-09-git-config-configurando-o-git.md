@@ -119,6 +119,14 @@ $ git config --global push.default current
 
 dizemos para o git que no <code>git push</code> ele deve enviar o conteúdo do branch atual para um branch de mesmo nome. Sendo assim se executassemos o <code>git push</code> no exemplo anterior, apenas o branch feature/awesome-thing seria enviado, o que faz sentido pois é o branch que estamos no momento. Mais informações e outras configurações possiveis podem ser encontradas no [manual do git](http://schacon.github.com/git/git-config.html).
 
+### Não precisando resolver conflitos já resolvidos
+
+É comum quando estamos em um feature branch que tenha uma vida relativamente longa, fazermos merge do branch master em nosso feature branch. Em algum destes merges talvez tenhamos que resolver algum conflito. O problema ocorre quando formos fazer merge do nosso feature branch no master, pois teremos que resolver os mesmos conflitos. Para resolvermos isto podemos ativar o `rerere`(Reuse recorded resolution of conflicted merges) com o seguinte comando.
+
+{% highlight bash %}
+$ git config --global rerere.enabled true
+{% endhighlight %}
+
 ### Documentação em HTML
 
 Caso queira que a documentação, ao digitar <code>git help comando</code> seja em HTML pode usar a seguinte configuração:
@@ -147,13 +155,6 @@ E se ainda assim dentro do diretório do repositório quiser listar as configura
 $ git config --global -l
 {% endhighlight %}
 
-### Não precisando resolver conflitos já resolvidos
-
-É comum quando estamos em um feature branch que tenha uma vida relativamente longa, fazermos merge do branch master em nosso feature branch. Em algum destes merges talvez tenhamos que resolver algum conflito. O problema ocorre quando formos fazer merge do nosso feature branch no master, pois teremos que resolver os mesmos conflitos. Para resolvermos isto podemos ativar o `rerere`(Reuse recorded resolution of conflicted merges) com o seguinte comando.
-
-{% highlight bash %}
-$ git config --global rerere.enabled true
-{% endhighlight %}
 
 ## Shell
 
