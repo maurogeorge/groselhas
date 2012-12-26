@@ -47,7 +47,7 @@ Agora que entendemos como definimos as configurações no git, iremos ver como p
 {% highlight bash %}
 $ git config --global alias.co "checkout"
 $ git config --global alias.ci "commit"
-$ git config --global alias.st "status"
+$ git config --global alias.st "status -sb"
 $ git config --global alias.br "branch"
 $ git config --global alias.wdiff "diff --word-diff"
 {% endhighlight %}
@@ -129,7 +129,7 @@ $ git config --global help.format web
 
 Assim ao digitar por exemplo <code>git help config</code> será aberto o browser e poderá ver a documentação do comando digitado em HTML.
 
-Lembrando que para ver a documentação em HTML a mesma deve ser instalada, [ mais informações de como instalar aqui](http://help.github.com/install-git-html-help/).
+Lembrando que para ver a documentação em HTML a mesma deve ser instalada, [mais informações de como instalar aqui](http://help.github.com/install-git-html-help/).
 
 ## Listando as configurações
 
@@ -147,6 +147,13 @@ E se ainda assim dentro do diretório do repositório quiser listar as configura
 $ git config --global -l
 {% endhighlight %}
 
+### Não precisando resolver conflitos já resolvidos
+
+É comum quando estamos em um feature branch que tenha uma vida relativamente longa, fazermos merge do branch master em nosso feature branch. Em algum destes merges talvez tenhamos que resolver algum conflito. O problema ocorre quando formos fazer merge do nosso feature branch no master, pois teremos que resolver os mesmos conflitos. Para resolvermos isto podemos ativar o `rerere`(Reuse recorded resolution of conflicted merges) com o seguinte comando.
+
+{% highlight bash %}
+$ git config --global rerere.enabled true
+{% endhighlight %}
 
 ## Shell
 
