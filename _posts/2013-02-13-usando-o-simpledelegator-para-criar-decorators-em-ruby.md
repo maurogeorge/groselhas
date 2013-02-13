@@ -7,7 +7,7 @@ category: Ruby
 tags: [Ruby, Ruby on Rails, OOP]
 ---
 
-Recentemente postei no [blog da HE:labs](http://helabs.com.br/blog) sobre [como extrrair responsabilidade de models no rails utilizando-se de decorators](http://helabs.com.br/blog/2013/01/28/extraindo-a-responsabilidade-de-fat-models-com-o-uso-de-decorators/) para quem curtiu e já está utilizando decorators em suas apps apresento agora o [SimpleDelegator](http://www.ruby-doc.org/stdlib-1.9.3/libdoc/delegate/rdoc/SimpleDelegator.html) que nos ajuda a criar nossos decorators.
+Recentemente postei no [blog da HE:labs](http://helabs.com.br/blog) sobre [como extrair responsabilidade de models no rails utilizando-se de decorators](http://helabs.com.br/blog/2013/01/28/extraindo-a-responsabilidade-de-fat-models-com-o-uso-de-decorators/) para quem curtiu e já está utilizando decorators em suas apps apresento agora o [SimpleDelegator](http://www.ruby-doc.org/stdlib-1.9.3/libdoc/delegate/rdoc/SimpleDelegator.html) que nos ajuda a criar nossos decorators.
 
 Imagine que tenhamos a seguinte classe:
 
