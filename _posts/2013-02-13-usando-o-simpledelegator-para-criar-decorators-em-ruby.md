@@ -33,6 +33,8 @@ puts goku.name # => "Goku"
 Agora iremos criar o Super Sayajin, vamos a nossa classe:
 
 {% highlight ruby %}
+require 'delegate'
+
 class SuperSaiyajin < SimpleDelegator
 
   def name
