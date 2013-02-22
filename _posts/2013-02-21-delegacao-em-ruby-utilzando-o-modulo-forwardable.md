@@ -18,28 +18,28 @@ Vamos a um exemplo:
 class Basket
 
   def initialize
-    @itens = []
+    @items = []
   end
 
-  def total_of_itens
-    @itens.size
+  def total_of_items
+    @items.size
   end
 
   def <<(item)
-    @itens << item
+    @items << item
   end
 
   def [](index)
-    @itens[index]
+    @items[index]
   end
 
   def []=(index, item)
-    @itens[index] = item
+    @items[index] = item
   end
 end
 {% endhighlight %}
 
-criamos uma classe `Basket` que é nossa cesta, seu papel é ser uma coleção de itens, vamos vê-la em ação:
+criamos uma classe `Basket` que é nossa cesta, seu papel é ser uma coleção de items, vamos vê-la em ação:
 
 {% highlight ruby %}
 basket = Basket.new
@@ -49,7 +49,7 @@ basket << "Banana"
 basket[3] = "Pera"
 p basket[0] # => "Morango"
 p basket[3] # => "Pera"
-p basket.total_of_itens # => 4
+p basket.total_of_items # => 4
 {% endhighlight %}
 
 Como pode ver agora nossa classe se comporta como um `Enumerable` no entanto se observar bem os métodos que implementamos, nada mais são do que delegar para os métodos do `Enumerable`, vamos a uma implementação mais inteligente.
@@ -57,7 +57,7 @@ Como pode ver agora nossa classe se comporta como um `Enumerable` no entanto se 
 ## Utilizando o Forwardable
 
 O Ruby possui o módulo [Forwardable](http://ruby-doc.org/stdlib-1.9.2/libdoc/forwardable/rdoc/Forwardable.html) que nos permite delegar métodos específicos para um objeto.
-Ou seja poderemos delegar os métodos de array, para o nosso próprio array `@itens`. Vamos ao código:
+Ou seja poderemos delegar os métodos de array, para o nosso próprio array `@items`. Vamos ao código:
 
 {% highlight ruby %}
 require 'forwardable'
@@ -66,11 +66,11 @@ class Basket
   extend Forwardable
 
   def initialize
-    @itens = []
+    @items = []
   end
 
-  def_delegator :@itens, :size, :total_of_itens
-  def_delegators :@itens, :<<, :[], :[]=
+  def_delegator :@items, :size, :total_of_items
+  def_delegators :@items, :<<, :[], :[]=
 end
 {% endhighlight %}
 
@@ -84,14 +84,14 @@ basket << "Banana"
 basket[3] = "Pera"
 p basket[0] # => "Morango"
 p basket[3] # => "Pera"
-p basket.total_of_itens # => 4
+p basket.total_of_items # => 4
 {% endhighlight %}
 
 Vamos agora entender o que aconteceu.
 
 ### def_delegator
 
-Primeiro utilizamos o [`def_delegator`](http://ruby-doc.org/stdlib-1.9.2/libdoc/forwardable/rdoc/Forwardable.html#method-i-def_delegator) que nos permite definir um delegator, para um único método do objeto e opcionalmente definir um nome diferente ao método. No nosso exemplo usamos o `Basket#total_of_itens` pois para a nossa interface faz mais sentido este nome do que apenas `Basket#size`.
+Primeiro utilizamos o [`def_delegator`](http://ruby-doc.org/stdlib-1.9.2/libdoc/forwardable/rdoc/Forwardable.html#method-i-def_delegator) que nos permite definir um delegator, para um único método do objeto e opcionalmente definir um nome diferente ao método. No nosso exemplo usamos o `Basket#total_of_items` pois para a nossa interface faz mais sentido este nome do que apenas `Basket#size`.
 
 ### def_delegators
 
