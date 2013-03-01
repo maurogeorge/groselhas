@@ -13,7 +13,7 @@ A Microsft disponibiliza vários [VHDs com Windows](http://www.microsoft.com/dow
 
 - [VirtualBox](http://virtualbox.org)
 - Curl (Ubuntu: <code>sudo apt-get install curl</code>)
-- No Linux apenas: unrar (Ubuntu: <code>sudo apt-get install unrar</code>)
+- No Linux apenas: unar (Ubuntu: <code>sudo apt-get install unar</code>)
 - Paciência
 
 ## Instalação
