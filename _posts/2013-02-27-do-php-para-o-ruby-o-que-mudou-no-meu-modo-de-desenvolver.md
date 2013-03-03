@@ -13,7 +13,7 @@ Este post não é uma comparação de linguagens para saber qual é a melhor, af
 
 Onde eu trabalhava era muito complicado convencer que o Git era uma boa ferramenta, apesar de eu usar sozinho, mas convencer a equipe toda a usar era complicado, era questionado ainda o por que de não usar o SVN, sim em 2011.
 
-Na [HE:labs](http://helabs.com.br) utilizamos o Git, todos do time, inclusive os designers não sendo problema para ninguém do time o seu uso.
+Na [HE:labs](http://helabs.com.br) utilizamos o Git, todos do time, inclusive os designers, não sendo problema para ninguém do time o seu uso.
 
 ## Testes
 
