@@ -42,4 +42,4 @@ Processing by SessionsController#new as HTML
 Completed 200 OK in 378ms (Views: 284.3ms | Solr: 0.0ms)
 {% endhighlight %}
 
-É isso, post rápido e útil, espero que seja útil para alguem a dica.
+É isso, post rápido, espero que seja útil para alguem a dica.
