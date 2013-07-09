@@ -20,7 +20,7 @@ Meus logs saiam como:
 
 Para melhorar o log, podemos definir em `config/environments/development.rb` a seguinte configuração:
 
-{% highlight bash %}
+{% highlight ruby %}
 config.logger = Logger.new(STDOUT)
 {% endhighlight %}
 
