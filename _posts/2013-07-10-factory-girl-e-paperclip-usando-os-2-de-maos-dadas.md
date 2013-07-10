@@ -22,7 +22,7 @@ FactoryGirl.define do
 end
 {% endhighlight %}
 
-No entanto isto é prolemático pois:
+No entanto isto é problemático pois:
 
 A imagem realmente está sendo enviada para a S3, deixando meus testes mais lentos e dependentes de rede. Claro que posso usar o [VCR](https://github.com/vcr/vcr) para salvar estas requisições, mas imagina a quantidade de specs usando esta factory, imagina agora o trabalho de colocar todas estas specs no VCR, realmente não parece uma boa ideia. E o pior teria que se lembrar de toda vez que fosse usar tal factory as specs teriam que está usando o VCR.
 
