@@ -5,7 +5,7 @@ meta_description: Feed de posts do blog Groselhas, de Mauro George, saiba como a
 meta_keywords: feed, groselhas, mauro, george, desenvolvimento, web, php, cakephp, ruby, rails, git
 ---
 
-Caso você já saiba o que é um feed e deseja assinar o feed do groselhas [clique aqui](/atom.xml "clique aqui para assinar o feed de groselhas").
+Caso você já saiba o que é um feed e deseja assinar o feed do groselhas [clique aqui](http://feeds.feedburner.com/groselhas "clique aqui para assinar o feed de groselhas").
 
 ## O que é o Feed?
 
