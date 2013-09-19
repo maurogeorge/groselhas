@@ -181,10 +181,15 @@ a#home-last-post-read {
   margin-bottom: 20px;
 }
 
-#post h2 {
+#post h2, #post h3 {
   font-size: 2.2rem;
   margin: 30px 0 5px;
 }
+
+#post h3 {
+  font-size: 2.0rem;
+}
+
 
 #post pre {
   background-color: #F5F5F5;
