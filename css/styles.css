@@ -27,6 +27,10 @@ a {
   text-decoration: none;
 }
 
+a:hover {
+  text-decoration: underline;
+}
+
 /** reset tags HTML5. */
 article, aside, dialog, figure, footer, header,
 hgroup, menu, nav, section, menu {
@@ -92,21 +96,25 @@ hgroup, menu, nav, section, menu {
 /* =Home
  * -------------------------------------------------------------- */
 
-#home-last-post-holder {
+#home-last-post-holder,
+#post-title-holder {
   background: #5295CF;
   margin-bottom: 30px;
 }
 
-#home-last-post {
+#home-last-post,
+#post-title {
   padding: 150px 0 50px;
   text-align: center;
 }
 
-#home-last-post h1 {
+#home-last-post h1,
+#post-title h1 {
   margin-bottom: 40px;
 }
 
-#home-last-post h1 a {
+#home-last-post h1 a,
+#post-title h1 a {
   color: #fff;
   font-size: 6.0rem;
   text-decoration: none;
@@ -119,6 +127,7 @@ a#home-last-post-read {
   color: #fff;
   font-size: 2.5rem;
   text-transform: uppercase;
+  text-decoration: none;
 }
 
 #home-posts {}
@@ -128,6 +137,10 @@ a#home-last-post-read {
   overflow: hidden;
   margin-bottom: 25px;
   padding-bottom: 35px;
+}
+
+#home-posts article a {
+  text-decoration: none;
 }
 
 #home-posts .home-post-date {
@@ -147,4 +160,71 @@ a#home-last-post-read {
   width: 765px;
 }
 
+/* =Post
+ * -------------------------------------------------------------- */
 
+#post {
+  margin-bottom: 40px;
+}
+
+#post p {
+  font-size: 1.8rem;
+  line-height: 2;
+  margin-bottom: 20px;
+}
+
+#post h2 {
+  font-size: 2.2rem;
+  margin: 30px 0 5px;
+}
+
+#post pre {
+  background-color: #F5F5F5;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  border-radius: 3px 3px 3px 3px;
+  display: block;
+  font-size: 1.5rem;
+  line-height: 18px;
+  margin: 20px 0;
+  padding: 8.5px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+#post code {
+  background-color: #F5F5F5;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  border-radius: 3px 3px 3px 3px;
+  padding: 3px;
+}
+
+#post pre code {
+  background: none;
+  border: 0;
+}
+
+blockquote {
+  border-left: 5px solid #EEEEEE;
+  margin-bottom: 20px;
+  padding-left: 15px;
+  font-size: 1.8rem;
+}
+
+#post ul,
+#post ol {
+  font-size: 1.8rem;
+  margin: 20px 0 20px 40px;
+}
+
+#post li {
+  margin-bottom: 10px;
+}
+
+#comments {
+
+}
+
+#comments h2 {
+  font-size: 2.2rem;
+  margin-bottom: 2rem;
+}
