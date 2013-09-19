@@ -57,10 +57,14 @@ hgroup, menu, nav, section, menu {
   overflow: hidden;
 }
 
-#header h1 {
+#header h1 a {
   color: #D92534;
-  font-size: 2em;
+  font-size: 2.8rem;
   float: left;
+}
+
+#header h1 a:hover {
+  text-decoration: none;
 }
 
 #header nav {
