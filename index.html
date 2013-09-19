@@ -6,17 +6,22 @@ meta_keywords: groselhas, mauro, george, desenvolvimento, web, php, cakephp, rub
 ---
 
 {% assign first_post = site.posts.first %}
-<article class="well">
-  <h1><a href="{{ first_post.url }}" title="Post {{ first_post.title }}">{{ first_post.title }}</a> <small>{{ first_post.date | date: '%d/%m/%Y' }}</small></h1>
-  <p>{{ first_post.content | strip_html | truncatewords: 20 }}</p>
-  <p><a href="{{ first_post.url }}" title="Continue lendo o post {{ first_post.title }}" class="btn primary">Continue lendo</a></p>
-</article>
-<div class="row">
-  {% for post in site.posts limit: 2 offset:1 %}
-    <article class="span5">
-      <h2><a href="{{ post.url }}" title="Post {{ post.title }}">{{ post.title }}</a> <span class="label notice">{{ post.date | date: '%d/%m/%Y' }}</span></h2>
-      <p>{{ post.content | strip_html | truncate: 120  }}</p>
-      <p><a href="{{ post.url }}" title="Continue lendo o post {{ post.title }}" class="btn">Continue lendo</a></p>
+
+<div id="home-last-post-holder">
+  <article id="home-last-post" class="wrapper">
+    <h1><a href="{{ first_post.url }}" title="Post {{ first_post.title }}">{{ first_post.title }}</a></h1>
+    <p>
+      <a id="home-last-post-read" href="{{ first_post.url }}" title="Continue lendo o post {{ first_post.title }}">Ler</a>
+      </p>
+  </article>
+</div>
+<section id="home-posts" class="wrapper">
+  {% for post in site.posts offset:1 %}
+    <article>
+      <div class="home-post-date">
+        {{ post.date | date: '%d/%m/%Y' }}
+      </div>
+      <h1><a href="{{ post.url }}" title="Post {{ post.title }}">{{ post.title }}</a> </h1>
     </article>
   {% endfor %}
-</div>
+</section>
