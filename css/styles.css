@@ -79,6 +79,14 @@ hgroup, menu, nav, section, menu {
  * -------------------------------------------------------------- */
 
 #footer-holder {
+  background: #5295CF;
+  padding: 20px 0;
+  text-align: center;
+  color: #fff;
+}
+
+#footer-holder a {
+  color: #fff;
 }
 
 /* =Home
@@ -102,6 +110,7 @@ hgroup, menu, nav, section, menu {
   color: #fff;
   font-size: 6.0rem;
   text-decoration: none;
+  font-family: 'Ubuntu', sans-serif;
 }
 
 a#home-last-post-read {
@@ -118,7 +127,7 @@ a#home-last-post-read {
   border-bottom: 1px solid #5295CF;
   overflow: hidden;
   margin-bottom: 25px;
-  padding-bottom: 25px;
+  padding-bottom: 35px;
 }
 
 #home-posts .home-post-date {
