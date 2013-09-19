@@ -163,6 +163,10 @@ a#home-last-post-read {
 /* =Post
  * -------------------------------------------------------------- */
 
+#post-title h1 {
+  margin-bottom: 0;
+}
+
 #post {
   margin-bottom: 40px;
 }

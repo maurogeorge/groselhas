@@ -5,6 +5,7 @@ layout: default
   <div id="post-title-holder">
     <header id="post-title" class="wrapper">
     <h1><a href="{{ page.url }}" title="Post {{ page.title }}">{{ page.title }}</a></h1>
+    <p>Criado em: {{ page.date | date: '%d/%m/%Y' }}</p>
     </header>
   </div>
   <div class="wrapper">
