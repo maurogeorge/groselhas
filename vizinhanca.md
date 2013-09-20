@@ -12,6 +12,7 @@ Alguns blogs e sites que recomendo =)
   <li><a href="http://blog.andrefaria.com/" title="Blog do André Faria">André Faria</a></li>
   <li><a href="http://blog.caelum.com.br/" title="Blog da Caelum">Blog da Caelum</a></li>
   <li><a href="http://henriquebastos.net/" title="Blog do Henrique Bastos">Henrique Bastos.NET</a></li>
+  <li><a href="http://helabs.com.br/blog" title="Blog da HE:labs">Blog da HE:labs</a></li>
   <li><a href="http://www.maujor.com/blog/" title="Blog do Maujor">Maujor</a></li>
   <li><a href="http://www.pinceladasdaweb.com.br/blog/" title="Blog do Pedro Rogério">Pinceladas da web</a></li>
   <li><a href="http://blog.rafaeldohms.com.br/" title="Blog do Rafael Dohms">Rafael Dohms</a></li>
