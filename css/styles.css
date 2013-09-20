@@ -72,7 +72,6 @@ hgroup, menu, nav, section, menu {
   font-size: 1.4em;
 }
 
-
 #header nav a {
   color: #555;
   margin-left: 20px;
@@ -243,7 +242,56 @@ blockquote {
 /* =Responsive
  * -------------------------------------------------------------- */
 
-@media only screen and (max-width: 767px), only screen and (max-width: 767px) and (orientation: portrait), only screen and (max-width:960px) {
+@media only screen and (max-width: 599px) {
+
+  #home-last-post {
+    padding: 75px 0 25px;
+    text-align: center;
+  }
+
+  #home-last-post h1 a {
+    font-size: 3rem;
+  }
+
+  a#home-last-post-read {
+    border: 3px solid #fff;
+    padding: 5px 20px;
+    font-size: 1.5rem;
+  }
+
+
+  #home-posts .home-post-date {
+    float: none;
+    width: 80px;
+    padding: 10px;
+  }
+
+
+  #home-posts h1 {
+    font-size: 2rem;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+
+   #header h1 {
+     margin-bottom: 10px;
+   }
+
+   #header h1 a {
+     float: none;
+   }
+
+   #header nav {
+     float: none;
+   }
+
+   #header nav a {
+     margin: 0 10px 0 0;
+   }
+ }
+
+@media only screen and (max-width: 767px) and (orientation: portrait), only screen and (max-width:960px) {
 
   .wrapper {
     width:90%;
