@@ -21,4 +21,4 @@ Para poder utilizar os feeds que os sites oferecem você  necessita apenas de um
 * [Firefox](http://br.mozdev.org/firefox/rss "Firefox leitor de feed")
 * [Internet  Explorer](http://www.microsoft.com/brasil/windows/products/winfamily/ie/iefaq.mspx "Internet Explorer leitor de feed")
 
-Existem muitos outros agregadores de  feeds, pessoalmente utilizo o nativo do próprio Firefox, deixei o link alguns agregadores, e assim que escolher o seu e se familiarizar pode [assinar o feed do groselhas](/atom.xml "assine aqui o feed do groselhas").
+Existem muitos outros agregadores de  feeds, pessoalmente utilizo o nativo do próprio Firefox, deixei o link alguns agregadores, e assim que escolher o seu e se familiarizar pode [assinar o feed do groselhas](http://feeds.feedburner.com/groselhas "assine aqui o feed do groselhas").
