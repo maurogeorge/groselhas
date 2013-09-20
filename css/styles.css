@@ -233,11 +233,30 @@ blockquote {
   margin-bottom: 10px;
 }
 
-#comments {
-
-}
+#comments {}
 
 #comments h2 {
   font-size: 2.2rem;
   margin-bottom: 2rem;
+}
+
+/* =Responsive
+ * -------------------------------------------------------------- */
+
+@media only screen and (max-width: 767px), only screen and (max-width: 767px) and (orientation: portrait), only screen and (max-width:960px) {
+
+  .wrapper {
+    width:90%;
+    margin: 0 auto;
+  }
+
+  #home-posts .home-post-date {
+    float: none;
+  }
+
+  #home-posts h1 {
+    float: none;
+    width: 100%;
+  }
+
 }
