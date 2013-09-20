@@ -244,12 +244,14 @@ blockquote {
 
 @media only screen and (max-width: 599px) {
 
-  #home-last-post {
+  #home-last-post,
+  #post-title {
     padding: 75px 0 25px;
     text-align: center;
   }
 
-  #home-last-post h1 a {
+  #home-last-post h1 a,
+  #post-title h1 a {
     font-size: 3rem;
   }
 
@@ -259,13 +261,11 @@ blockquote {
     font-size: 1.5rem;
   }
 
-
   #home-posts .home-post-date {
     float: none;
     width: 80px;
     padding: 10px;
   }
-
 
   #home-posts h1 {
     font-size: 2rem;
