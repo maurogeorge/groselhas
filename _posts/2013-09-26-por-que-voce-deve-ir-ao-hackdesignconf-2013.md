@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Por que você deve ir ao HDC'2013
-meta_description: Saiba por que você deve ir ao HDC'2013
+title: Por que você deve ir ao HDC 2013
+meta_description: Saiba por que você deve ir ao HDC 2013
 meta_keywords: rio de janeiro, rio, HDC, 2013, evento, software
 category: Evento
 tags: [Evento]
