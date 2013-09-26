@@ -15,7 +15,7 @@ Mas para os que gostam recomendo muito ir ao evento, pois terá bastante [gente 
 
 Venha para o evento com o pensamento de se divertir, aprender e conhecer pessoas. Sabe aquele cara que você conhece que avassala provavelmente ele estára aqui no evento vem dizer isso para ele, com certeza o cara ficará feliz.
 
-Conheci muita gente foda nesse caminho como o [Henrique Bastos](https://twitter.com/henriquebastos), [Mergulhão](https://twitter.com/smergulhao), [Rafael Lima](https://twitter.com/rafaelp), [Tapajós](https://twitter.com/tapajos), [Nando](https://twitter.com/fnando) entre muitos outros nomes que você deve conhecer. Já trocamos ideias, almoçamos e famos para o Bar =)
+Conheci muita gente foda nesse caminho como o [Henrique Bastos](https://twitter.com/henriquebastos), [Mergulhão](https://twitter.com/smergulhao), [Rafael Lima](https://twitter.com/rafaelp), [Tapajós](https://twitter.com/tapajos), [Nando](https://twitter.com/fnando) entre muitos outros nomes que você deve conhecer. Já trocamos ideias, almoçamos e fomos para o Bar =)
 
 Então venha para o evento com o intuito de conhecer pessoas, é sempre legal ouvir a opinião dos outros.
 
