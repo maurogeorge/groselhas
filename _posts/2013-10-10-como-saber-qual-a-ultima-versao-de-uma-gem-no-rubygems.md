@@ -10,7 +10,7 @@ tags: [Ruby, Dica, Gem]
 Quando queremos instalar uma nova gem é comum procurarmos em qual versão a Gem se encontra atualmente. Podemos obter este valor das seguintes maneiras:
 
 - acessando o Readme e procuramos a versão, isso se o autor se importou em colocar este valor lá;
-- Rubygems, [exemplo](https://rubygems.org/gems/jacaranda)
+- Rubygems, [exemplo](https://rubygems.org/gems/jacaranda);
 
 nenhum dos 2 modos é muito prático, para ambos você deve sair do terminal para ir atrás destes valores. O que eu uso e recomendo é o seguinte comando do Rubygems:
 
