@@ -14,9 +14,9 @@ Quando queremos instalar uma nova gem é comum procurarmos em qual versão a Gem
 
 nenhum dos 2 modos é muito prático, para ambos você deve sair do terminal para ir atrás destes valores. O que eu uso e recomendo é o seguinte comando do Rubygems:
 
-```bash
+{% highlight ruby %}
 $ gem list jacaranda -r
-```
+{% endhighlight %}
 
 ele retorna uma lista com a gem e sua ultima versão estável.
 
