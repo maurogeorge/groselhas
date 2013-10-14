@@ -6,9 +6,9 @@ layout: nil
  
  <title>Groselhas - O blog do Mauro George</title>
  <link type="application/atom+xml" rel="self" href="http://feeds.feedburner.com/groselhas"/>
- <link href="http://maurogeorge.github.com/"/>
+ <link href="http://groselhas.maurogeorge.com.br/"/>
  <updated>{{ site.time | date_to_xmlschema }}</updated>
- <id>http://maurogeorge.github.com/</id>
+ <id>http://groselhas.maurogeorge.com.br/</id>
  <author>
    <name>Mauro George</name>
    <email>maurogot@gmail.com</email>
@@ -16,9 +16,9 @@ layout: nil
 
  {% for post in site.posts %}
  <entry>
-   <id>http://maurogeorge.github.com{{ post.id }}</id>
+   <id>http://groselhas.maurogeorge.com.br{{ post.id }}</id>
    <title>{{ post.title }}</title>
-   <link type="text/html" href="http://maurogeorge.github.com{{ post.url }}"/>
+   <link type="text/html" href="http://groselhas.maurogeorge.com.br{{ post.url }}"/>
    <updated>{{ post.date | date_to_xmlschema }}</updated>
    <content type="html">{{ post.content | xml_escape }}</content>
  </entry>
