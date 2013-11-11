@@ -7,7 +7,7 @@ category: Livro
 tags: [Ruby, Rspec]
 ---
 
-Sim, estou escrevendo um e-book =) Seguinda a sugestão do meu amigo [Cayo](http://www.yogodoshi.com/), vou compartilhar com a comunidade a minha ideia.
+Sim, estou escrevendo um e-book =) Seguindo a sugestão do meu amigo [Cayo](http://www.yogodoshi.com/), vou compartilhar com a comunidade a minha ideia.
 
 A ideia é falar sobre o ecossistema que existe em volta do RSpec, e como isso agiliza o trabalhao do dia a dia.
 Não é um e-book para iniciante mais para quem já sabe usar o RSpec no dia a dia é quer aprender técnicas para melhorar e agilizar o processo de BDD.
