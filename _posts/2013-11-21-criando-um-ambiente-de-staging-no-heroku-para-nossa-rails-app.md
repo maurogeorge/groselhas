@@ -44,7 +44,7 @@ end
 Para finalizar definimos as variaveis de ambiente no heroku, devemos definir o `RACK_ENV` e o `RAILS_ENV`.
 
 {% highlight bash %}
-heroku config:set RACK_ENV=staging RAILS_ENV=staging --app myapp-staging
+$ heroku config:set RACK_ENV=staging RAILS_ENV=staging --app myapp-staging
 {% endhighlight %}
 
 Caso estejamos utilizando serviços como Amazon S3, Facebook etc. É uma boa pratica termos um bucket exclusivo de staging no caso da S3 e uma app do facebook para staging, assim como qualquer outro serviço que estejamos utilizando.
