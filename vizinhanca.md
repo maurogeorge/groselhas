@@ -21,3 +21,9 @@ Alguns blogs e sites que recomendo =)
   <li><a href="http://blog.thiagobelem.net/" title="Blog do Thiago Belem">Thiago Belem</a></li>
   <li><a href="http://www.yogodoshi.com/" title="Blog do Yogodoshi">Yogodoshi</a></li>
 </ul>
+
+## Projetos
+
+- [Estou Jogando](http://www.estoujogando.com.br 'Rede Social dos gamers brasileiros')
+- [Drinks4.us](http://drinks4.us 'Make drinks with what you already have')
+
