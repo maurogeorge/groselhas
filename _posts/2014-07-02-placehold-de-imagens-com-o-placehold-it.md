@@ -39,4 +39,4 @@ Podemos customizar a cor do background e do texto, passando os paramêtros nessa
 
 As cores devem ser definidas sempre depois das dimensões.
 
-Fica aí com mais uma ferramenta para ajudar no desenvolvimento front-end.
+Fica aí com mais uma ferramenta para ajudar no desenvolvimento Front-end.
