@@ -61,6 +61,8 @@ Seguindo esta prática você está ajudando a:
 
 Lembrando que sempre temos que revisitar estes seeds pois novos campos são adicionados no banco, novas validações e mesmo novos models que ainda não foram criados. Podemos revisitá-los quando rodamos o seed em algum momento ou quando uma nova pessoa entra no projeto e sente falta de alguma informação. Ela já pode contribuir gerando esta informação no seed.
 
+Aprendi esta técnica enquanto trabalhava com o [Fábio](https://twitter.com/fgrehm) =)
+
 Pode parecer uma boa ideia utilizar FactoryGirl, mas não é ;p [saiba mais aqui](http://robots.thoughtbot.com/factory_girl-for-seed-data).
 
 Caso queira dados "mais reais" pode utilizar o [faker](https://github.com/stympy/faker).
