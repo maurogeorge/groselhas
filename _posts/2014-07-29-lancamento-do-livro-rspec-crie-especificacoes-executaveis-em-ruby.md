@@ -9,7 +9,7 @@ tags: [Ruby, RSpec]
 
 Há um tempo escrevi que estava [começando a escrever um e-book](/rspec-best-friends-meu-primeiro-e-book.html) e hoje é hora de anunciar que finalizei o livro e ele foi lançado hoje pela [Casa do Código](http://www.casadocodigo.com.br/products/livro-rspec) \o/.
 
-[![Livro RSpec: Crie especificações executáveis em Ruby](/images/2014-08-29/rspec-ebook.png)](http://www.casadocodigo.com.br/products/livro-rspec)
+[![Livro RSpec: Crie especificações executáveis em Ruby](/images/posts/2014-07-29/rspec-ebook.png)](http://www.casadocodigo.com.br/products/livro-rspec)
 
 ## E com isso o que muda da proposta original?
 
