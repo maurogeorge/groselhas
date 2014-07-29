@@ -189,6 +189,13 @@ a#home-last-post-read {
   font-size: 2.0rem;
 }
 
+#post img {
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+    display: block;
+    margin: 0 auto;
+    padding: 10px;
+}
 
 #post pre {
   background-color: #F5F5F5;
