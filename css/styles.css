@@ -239,6 +239,49 @@ blockquote {
   margin-bottom: 10px;
 }
 
+#book {
+  margin: 30px auto;
+}
+
+#book a {
+  background: #5295CF;
+  display: block;
+  padding: 15px;
+  overflow: hidden;
+  color: #fff;
+}
+
+#book div,
+#book img {
+  float: left;
+}
+
+#book div {
+  width: 600px;
+}
+
+#book img {
+  margin-right: 20px;
+}
+
+#book h6 {
+  font-size: 1.9rem;
+  margin-top: 15px;
+  font-weight: normal;
+}
+
+#book h6 strong {
+  margin: 10px 0;
+}
+
+#book h6 strong,
+#book h6 em {
+  text-decoration: none;
+  font-style:normal;
+  display: block;
+  font-weight: normal;
+}
+
 #comments {}
 
 #comments h2 {
