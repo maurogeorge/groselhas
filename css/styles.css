@@ -257,7 +257,7 @@ blockquote {
 }
 
 #book div {
-  width: 600px;
+  width: 70%;
 }
 
 #book img {
@@ -320,6 +320,10 @@ blockquote {
   #home-posts h1 {
     font-size: 2rem;
   }
+
+  #book h6 {
+    margin-top: 0;
+  }
 }
 
 @media only screen and (max-width: 767px) {
@@ -339,6 +343,10 @@ blockquote {
    #header nav a {
      margin: 0 10px 0 0;
    }
+
+   #book h6 {
+     margin-top: 0;
+   }
  }
 
 @media only screen and (max-width: 767px) and (orientation: portrait), only screen and (max-width:960px) {
@@ -357,4 +365,7 @@ blockquote {
     width: 100%;
   }
 
+  #book h6 {
+    margin-top: 0;
+  }
 }
