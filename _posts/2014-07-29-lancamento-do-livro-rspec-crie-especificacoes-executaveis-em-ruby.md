@@ -17,7 +17,7 @@ Não poderei disponibilizar uma versão gratuita, que eu planejava enquanto eu e
 
 No entanto em relação ao conteúdo nada foi alterado, tive total flexibilidade para escrever o quanto eu quisesse. Com a vantagem de ter a revisão e instrução dos editores da Casa do Código. E mais, agora teremos uma versão impressa e em diversos formatos digitais.
 
-Ou seja com esta parceria com a [Casa do Código](http://www.casadocodigo.com.br/) o livro só teve a ganhar, primeiro pela edição e revisão de uma equipe de professionais e na publicação que eu não tive que me preocupar em como iria fazer, assim pude deixar este trabalho para quem já está no mercado fazendo isso no dia a dia.
+Ou seja com esta parceria com a [Casa do Código](http://www.casadocodigo.com.br/) o livro só teve a ganhar, primeiro pela edição e revisão de uma equipe de profissionais e na publicação que eu não tive que me preocupar em como iria fazer, assim pude deixar este trabalho para quem já está no mercado fazendo isso no dia a dia.
 
 Outra parceria que foi firmada no caminho foi com a [HE:labs](http://helabs.com.br) que me cedeu algumas horas por semana do meu trabalho para me dedicar ao livro, o que ajudou bastante no andamento <3
 
