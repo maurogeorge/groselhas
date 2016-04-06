@@ -4,4 +4,4 @@
 
 Rode com
 
-    $ jekyll -w serve
+    $ jekyll serve

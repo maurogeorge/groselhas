@@ -1,9 +1,9 @@
 ---
-layout: nil
+layout: null
 ---
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
- 
+
  <title>Groselhas - O blog do Mauro George</title>
  <link type="application/atom+xml" rel="self" href="http://feeds.feedburner.com/groselhas"/>
  <link href="http://groselhas.maurogeorge.com.br/"/>
@@ -23,5 +23,5 @@ layout: nil
    <content type="html">{{ post.content | xml_escape }}</content>
  </entry>
  {% endfor %}
- 
+
 </feed>
